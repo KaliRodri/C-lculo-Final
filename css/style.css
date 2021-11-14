@@ -10,10 +10,10 @@
         width:100%;
         align-items: center;
     }
-
+   
     @font-face {
         font-family: FunCity;
-        src: url(/FunCityLevel3Frame.otf);
+        src: url(FunCityLevel3Frame.otf);
     }
 
     header button img{
@@ -280,7 +280,7 @@
     
     @font-face {
         font-family: FunCity;
-        src: url(/FunCityLevel3Frame.otf);
+        src: url(FunCityLevel3Frame.otf);
     }
 
     header button img{
@@ -532,7 +532,7 @@
 
     @font-face {
         font-family: FunCity;
-        src: url(/FunCityLevel3Frame.otf);
+        src: url(FunCityLevel3Frame.otf);
     }
     
     header{
@@ -779,7 +779,7 @@
 
     @font-face {
         font-family: FunCity;
-        src: url(/FunCityLevel3Frame.otf);
+        src: url(FunCityLevel3Frame.otf);
     }
     
     header{
@@ -1018,7 +1018,7 @@
 
     @font-face {
         font-family: FunCity;
-        src: url(/FunCityLevel3Frame.otf);
+        src: url(FunCityLevel3Frame.otf);
     }
     
     header{
