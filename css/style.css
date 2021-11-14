@@ -413,7 +413,7 @@
         text-align: center;
         margin: auto;
         padding-bottom: 50px;
-        font-size: 3em;
+        font-size: 3.2em;
         font-weight: bold;
         font-family: sans-serif;
         color: rgb(239, 87, 66);
@@ -529,6 +529,9 @@
         color: rgb(239, 87, 66);
         border: 1px solid rgb(239, 87, 66);
         border-radius: 5px;
+       font-size: 2em;
+        padding: 30px;
+        width: 100%;
 
     }
 
@@ -537,6 +540,9 @@
         color: white;
         border: solid 1px rgb(235, 235, 235) ;
         border-radius: 5px;
+       font-size: 2em;
+        padding: 30px;
+        width: 100%;
     }
 
     #button1:hover, #button2:hover{
@@ -566,7 +572,7 @@
         margin: auto;
         text-align: center;
         margin-bottom: 80px;
-        font-size: 2em;
+        font-size: 3em;
         color: rgb(239, 87, 66);
     }
     
