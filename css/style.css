@@ -141,7 +141,7 @@
         border-radius: 5px;
         width: 80%;
         margin-left: 80px;
-        height: 50px;
+        height: 70px;
         
     }
 
@@ -178,7 +178,7 @@
     label{
         text-align: center;
         padding-bottom: 5px;
-        font-size: 1.2em;
+        font-size: 2.2em;
         color: rgb(239, 87, 66);
         font-family: sans-serif;
     }
