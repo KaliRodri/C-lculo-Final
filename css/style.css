@@ -55,8 +55,8 @@
     }
     
     header ul{
+        list-style: none;
         
-        display:none
         width: 100%;
         justify-content: space-evenly ;
         margin-top: 20px;
@@ -409,11 +409,11 @@
     }
 
     .main-text{
-        padding-top: 20px;
+        padding-top: 50px;
         text-align: center;
         margin: auto;
-        padding-bottom: 20px;
-        font-size: 1.8em;
+        padding-bottom: 50px;
+        font-size: 3em;
         font-weight: bold;
         font-family: sans-serif;
         color: rgb(239, 87, 66);
@@ -426,7 +426,7 @@
     section .form1, main .form2{
         display: flex;
         flex-direction: column;
-        width: 60%;
+        width: 80%;
         margin: auto;
         padding-bottom: 15px;
     }
@@ -435,6 +435,35 @@
         border: solid 1px rgb(0, 0, 0);
         padding: 5px;
         border-radius: 5px;
+        height: 60px;
+    }
+   
+    input[type="text"]{
+    font-size:1.5em;
+    }
+
+    
+
+    input[type="number"]{
+        font-size:2em;
+    }
+   
+   #campi{
+            font-size:1.5em;
+   }
+
+    input::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+        color: rgb(239, 87, 66);
+        opacity: 0.7; /* Firefox */
+        font-size: 1.5em;
+    }
+      
+    input:-ms-input-placeholder { /* Internet Explorer 10-11 */
+        color: rgb(239, 87, 66);
+    }
+      
+    input::-ms-input-placeholder { /* Microsoft Edge */
+        color: rgb(239, 87, 66);
     }
     
     input::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
@@ -462,7 +491,7 @@
     label{
         text-align: center;
         padding-bottom: 5px;
-        font-size: 1.2em;
+        font-size: 2.2em;
         color: rgb(239, 87, 66);
         font-family: sans-serif;
     }
@@ -481,7 +510,7 @@
     }
 
     button{
-        padding: 10px;
+        padding: 30px;
         margin-top: 35px;
         width: 40%;
         border: none;
@@ -492,6 +521,7 @@
         color: white;
         border: solid 1px rgb(235, 235, 235) ;
         border-radius: 5px;
+       font-size: 2em;
     }
 
     #close-button{
@@ -523,6 +553,7 @@
         color: rgb(239, 87, 66);
         border: 1px solid rgb(239, 87, 66);
         border-radius: 5px;
+       font-size: 2em;
     }
 
     .container-button{
@@ -545,8 +576,9 @@
         margin-bottom: -16px;
         color: white;
         padding-top: 15px;
-        margin-top: 20px;
+        margin-top: 100px;
         position: relative;
+       padding-bottom:1px;
        
     }
     
