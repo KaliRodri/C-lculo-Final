@@ -1637,6 +1637,7 @@
         animation-name: texto;
         animation-duration: 1.5s;
         animation-fill-mode: forwards;
+        opacity: 1;
         
         
         
