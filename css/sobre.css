@@ -460,6 +460,7 @@
 
     header ul li a:hover{
         border-bottom: 1px solid rgb(253, 105, 6);
+       color: #ef5742;
     }
     
 
@@ -547,16 +548,16 @@
 
     @font-face {
         font-family: Pacifico;
-        src: url(FunCityLevel3Frame.otf)
+        src: url(FiraSans-Regular.ttf)
     }
 
     @keyframes texto{
         from{
-            transform: translateX(720px);
+            opacity: 0;
         }
 
         to{
-            transform: translateX(0);
+            opacity: 1;
         }
     }
 
@@ -564,9 +565,9 @@
         text-align: center;
         width: 80%;
         margin: auto;
-        font-size: 1.2em;
+        font-size: 1.4em;
         font-family: Pacifico;
-        transform: translateX(720px);
+        opacity: 0;
         animation-name: texto;
         animation-duration: 1.5s;
         animation-fill-mode: forwards;
@@ -644,7 +645,7 @@
         animation-direction: alternate;
         animation-iteration-count: infinite;
         transform: translateY(0);
-        margin-top: -710px ;
+        margin-top: -805px ;
         margin-left: 280px;
         z-index: 0;        
     }
@@ -674,39 +675,13 @@
 
     }
 
-    @keyframes linkedin {
-        from{
-            transform: translateX(650px);
-        }
-        to{
-            transform: translateX(0);
-        }
-    }
-
-    @keyframes instagram {
-        from{
-            transform: translateX(400px);
-        }
-        to{
-            transform: translateX(0);
-        }
-    }
-
-    @keyframes facebook {
-        from{
-            transform: translateX(200px);
-        }
-        to{
-            transform: translateX(0);
-        }
-    }
     
 
     .linkedin{
         background-color: blue;
         padding: 5px;
         border-radius: 10px;
-        transform: translateX(650px);
+       
         animation-name: linkedin;
         animation-duration: 1s;
         animation-fill-mode: forwards;
@@ -723,7 +698,7 @@
         background: radial-gradient(circle farthest-corner at 35% 90%, #fec564, transparent 50%), radial-gradient(circle farthest-corner at 0 140%, #fec564, transparent 50%), radial-gradient(ellipse farthest-corner at 0 -25%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 20% -50%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 0, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 60% -20%, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 100%, #d9317a, transparent), linear-gradient(#6559ca, #bc318f 30%, #e33f5f 50%, #f77638 70%, #fec66d 100%);
         padding: 5px;
         border-radius: 10px;
-        transform: translateX(400px);
+ 
         animation-name: instagram;
         animation-duration: 1s;
         animation-fill-mode: forwards;
@@ -740,7 +715,7 @@
         background-color: rgb(0, 119, 255);
         padding: 5px;
         border-radius: 10px;
-        transform: translateX(200px);
+ 
         animation-name: facebook;
         animation-duration: 1s;
         animation-fill-mode: forwards;
