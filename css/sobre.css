@@ -256,7 +256,7 @@
         animation-direction: alternate;
         animation-iteration-count: infinite;
         transform: translateY(0);
-        margin-top: -1050px ;
+        margin-top: -1080px ;
         margin-left: 280px;
         z-index: 0;        
     }
@@ -271,8 +271,8 @@
         animation-direction: alternate;
         animation-delay: 1.5s;
         animation-fill-mode: forwards;
-        width: 100px;
-        height: 100px;
+        width: 120px;
+        height: 120px;
         transform: translateX(-120px) translateY(120px);
         opacity: 0;
     }
