@@ -220,6 +220,10 @@
         color: rgb(239, 87, 66);
         border: 1px solid rgb(239, 87, 66);
         border-radius: 5px;
+       font-size: 2em;
+       padding: 30px;
+       width:100%;
+       
 
     }
 
@@ -228,6 +232,9 @@
         color: white;
         border: solid 1px rgb(235, 235, 235) ;
         border-radius: 5px;
+       font-size: 2em;
+       padding: 30px;
+       width:100%;
     }
 
     #button1:hover, #button2:hover{
