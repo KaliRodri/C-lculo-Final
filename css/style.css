@@ -1200,7 +1200,9 @@
         font-size:1.5em;
     }
     
-        
+    input[list="curso"]{
+        font-size:1.5em;
+    } 
     
    input[type="number"]{
         font-size:1.5em;
