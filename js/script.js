@@ -1,14 +1,19 @@
 
 document.getElementById('button1').addEventListener("click", Cal);
+
 document.getElementById('button2').addEventListener("click", EraseCal)
 
        
         
         
-        function Cal(){
+function Cal(){
             var n1 = document.getElementById("nota1").value;
             var n2 = document.getElementById("nota2").value;
             var n3 = document.getElementById("nota3").value;
+            var curso = document.getElementById("fname").value;
+            var disciplina = document.getElementById("campi").value;
+
+            
 
             var n1 = parseFloat(n1);
             var n2 = parseFloat(n2);
@@ -20,18 +25,21 @@ document.getElementById('button2').addEventListener("click", EraseCal)
             
             mediaP = parseFloat(mediaP);
 
-            document.getElementById("media-here").innerHTML = "Sua média é de " + mediaP;
+            document.getElementById("media-here").innerHTML = "Sua média em " + disciplina + " é de " + mediaP + ".";
             
-            if (n1 > 10 || n2> 10 || n3 > 10){
+
+            if (n1 > 10 || n2 > 10 || n3 > 10){
                 document.getElementById("media-here").innerHTML = "" ;
                 document.getElementById("nota-final").innerHTML = "Somentes notas menores que 10,0."
-            }
+            } 
 
             if (mediaP >= 7 && !(n1 > 10) && !(n2 > 10) && !(n3 > 10)){
-                document.getElementById("media-here").innerHTML = "Parabéns!, você está aprovado!";
+                document.getElementById("media-here").innerHTML = "Parabéns!, você está aprovado em " + disciplina + "!";
             } else if (mediaP < 3){
-                document.getElementById("media-here").innerHTML = "Infelizmente sua média é de apenas " + mediaP + " pontos, reprovou automaticamente.";
+                document.getElementById("media-here").innerHTML = "Infelizmente sua média em " + disciplina + " é de apenas " + mediaP + " pontos, reprovou automaticamente.";
             }
+
+           
 
 
             switch(mediaP){
@@ -171,14 +179,22 @@ document.getElementById('button2').addEventListener("click", EraseCal)
                 case "":
                 document.getElementById('media-here').innerHTML = "";;
             }
-        }
+
+            document.getElementById("nome-curso").innerHTML = curso;
+}
         
-        function EraseCal(){
+function EraseCal(){
             document.getElementById('media-here').innerHTML = "";
             document.getElementById('nota-final').innerHTML = "";
             document.getElementById('fname').innerHTML = "";
             document.getElementById('campi').innerHTML = "";
-        }
+}
+
+
+XMLDocument.style
+
+
+
 
 
             
