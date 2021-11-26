@@ -13,7 +13,7 @@
 
     @font-face {
         font-family: FunCity;
-        src: url(/fonts/FunCityLevel3Frame.otf);
+        src: url(FunCityLevel3Frame.otf);
     }
 
     header button img{
@@ -453,7 +453,7 @@ input:checked + .slider:before {
     
     @font-face {
         font-family: FunCity;
-        src: url(/fonts/FunCityLevel3Frame.otf);
+        src: url(FunCityLevel3Frame.otf);
     }
 
     header button img{
@@ -880,7 +880,7 @@ input:checked + .slider:before {
 
     @font-face {
         font-family: FunCity;
-        src: url(/fonts/FunCityLevel3Frame.otf);
+        src: url(FunCityLevel3Frame.otf);
     }
     
     header{
@@ -1277,7 +1277,7 @@ input:checked + .slider:before {
 
     @font-face {
         font-family: FunCity;
-        src: url(/fonts/FunCityLevel3Frame.otf);
+        src: url(FunCityLevel3Frame.otf);
     }
 
     #nome-curso{
@@ -1640,7 +1640,7 @@ input:checked + .slider:before {
 
     @font-face {
         font-family: FunCity;
-        src: url(/fonts/FunCityLevel3Frame.otf);
+        src: url(FunCityLevel3Frame.otf);
     }
 
     #nome-curso{
