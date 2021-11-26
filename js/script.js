@@ -1,7 +1,7 @@
 
 document.getElementById('button1').addEventListener("click", Cal);
 
-document.getElementById('button2').addEventListener("click", EraseCal)
+document.getElementById('button2').addEventListener("click", EraseCal);
 
        
         
@@ -35,8 +35,10 @@ function Cal(){
 
             if (mediaP >= 7 && !(n1 > 10) && !(n2 > 10) && !(n3 > 10)){
                 document.getElementById("media-here").innerHTML = "Parabéns!, você está aprovado em " + disciplina + "!";
+                document.getElementById("nota-final").innerHTML = "";
             } else if (mediaP < 3){
                 document.getElementById("media-here").innerHTML = "Infelizmente sua média em " + disciplina + " é de apenas " + mediaP + " pontos, reprovou automaticamente.";
+                document.getElementById("nota-final").innerHTML = "";
             }
 
            
@@ -181,17 +183,107 @@ function Cal(){
             }
 
             document.getElementById("nome-curso").innerHTML = curso;
-}
+};
         
 function EraseCal(){
             document.getElementById('media-here').innerHTML = "";
             document.getElementById('nota-final').innerHTML = "";
             document.getElementById('fname').innerHTML = "";
             document.getElementById('campi').innerHTML = "";
+};
+
+
+document.getElementById('change-mode').addEventListener('click', toggleMode);
+
+function toggleMode(){
+    var h = document.getElementById('container-all');
+    h.classList.toggle('dark-body');
+
+    var h = document.getElementById('header-container');
+    h.classList.toggle('dark-header');
+
+    var h = document.getElementById('footer-container');
+    h.classList.toggle('dark-header');
+
+    var h = document.getElementById('text-container');
+    h.classList.toggle('dark-color');
+
+    var h = document.getElementById('label1');
+    h.classList.toggle('dark-color');
+    
+    var h = document.getElementById('label2');
+    h.classList.toggle('dark-color');
+
+    var h = document.getElementById('nota1-label');
+    h.classList.toggle('dark-color');
+
+    var h = document.getElementById('label4');
+    h.classList.toggle('dark-color');
+
+    var h = document.getElementById('label5');
+    h.classList.toggle('dark-color');
+
+    var h = document.getElementById('fname');
+    h.classList.toggle('dark-color-inside');
+
+    var h = document.getElementById('campi');
+    h.classList.toggle('dark-color-inside');
+
+    var h = document.getElementById('nota1');
+    h.classList.toggle('dark-color-inside');
+
+    var h = document.getElementById('nota2');
+    h.classList.toggle('dark-color-inside');
+
+    var h = document.getElementById('nota3');
+    h.classList.toggle('dark-color-inside');
+
+    var h = document.getElementById('modal-here');
+    h.classList.toggle('dark-color-modal');
+
+    var h = document.getElementById('media-here');
+    h.classList.toggle('dark-color-modal-title');
+
+    var h = document.getElementById('nota-final');
+    h.classList.toggle('dark-color-modal-title');
+
+    var h = document.getElementById('modal-rodape');
+    h.classList.toggle('dark-color-modal');
+
+    var h = document.getElementById('button2');
+    h.classList.toggle('bg-transparent');
+
+    var h = document.getElementById('button2');
+    h.classList.toggle('text-white');
+
+    var h = document.getElementById('button2');
+    h.classList.toggle('border-white');
+
+    var h = document.getElementById('close-button');
+    h.classList.toggle('bg-transparent');
+
+    var h = document.getElementById('close-button');
+    h.classList.toggle('text-white');
+
+    var h = document.getElementById('close-button');
+    h.classList.toggle('border-white');
+
+    
+
+    
+
+
+    
+
+
+
+
+    
+
+   
+
+    
 }
-
-
-XMLDocument.style
 
 
 

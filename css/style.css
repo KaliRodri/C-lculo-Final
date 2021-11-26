@@ -13,7 +13,7 @@
 
     @font-face {
         font-family: FunCity;
-        src: url(FunCityLevel3Frame.otf);
+        src: url(/fonts/FunCityLevel3Frame.otf);
     }
 
     header button img{
@@ -23,7 +23,7 @@
 
     #menu-Sm{
         
-        padding-left: 365px;
+        margin-left: 5px;
         margin-top: -13px;
     }
 
@@ -69,7 +69,15 @@
         
     }
 
-    .header1{
+    .header1 li{
+        display: none;
+    }
+
+    .header1 .switch{
+        float: left;
+    }
+
+    #github-corner-top{
         display: none;
     }
 
@@ -317,9 +325,125 @@
         width: 35px;
         height: 35px;
     }
+
+    .r{
+        color: white;
+        font-size: 1em;
+        display: block;
+        margin-left: 280px;
+        margin-top: -2px
+        }
+
+    
+.switch {
+  margin-left: 220px;
+  position: relative;
+  display: inline-block;
+  width: 52px;
+  height: 25px;
 }
 
-@media only screen and (min-width: 601px){
+/* Hide default HTML checkbox */
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* The slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 18px;
+  width: 18px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: rgb(239, 87, 66);
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px rgb(239, 87, 66);
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 14px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+.dark-body{
+    background-color: #1F2933;
+}
+
+.dark-header{
+    background-color: #323F4B;
+}
+
+.dark-color{
+    color: #F5F7FA;
+}
+
+.dark-color-inside{
+    background-color: #323F4B;
+    color: #f5f6f7;
+    border: solid 1px #55697c;
+
+}
+
+.dark-color-inside::placeholder{
+    color: #f5f6f7;
+}
+
+.dark-color-inside-btn{
+    background-color: #1F2933;
+    color: #f5f6f7;
+    border: none;
+
+}
+
+.dark-color-modal{
+    background-color: #323F4B;
+    
+}
+
+.dark-color-modal-title{
+    color: #f5f6f7;
+}
+
+.github-corner-footer-change{
+    fill: #323F4B;
+}
+
+}
+
+@media only screen and (min-width: 601px) and (max-width: 767px){
     *{
         box-sizing: border-box;
         padding: 0;
@@ -329,7 +453,7 @@
     
     @font-face {
         font-family: FunCity;
-        src: url(FunCityLevel3Frame.otf);
+        src: url(/fonts/FunCityLevel3Frame.otf);
     }
 
     header button img{
@@ -339,8 +463,9 @@
 
     #menu-Sm{
         
-        padding-left: 365px;
+        margin-left: 5px;
         margin-top: -13px;
+       
     }
 
     #nome-curso{
@@ -373,9 +498,18 @@
         
     }
 
-    .header1{
+    .header1 li{
         display: none;
     }
+
+    .header1 .switch{
+        float: left;
+    }
+
+    #github-corner-top{
+        display: none;
+    }
+
     
     header ul{
         list-style: none;
@@ -386,6 +520,8 @@
 
         
     }
+    
+    
 
     header ul li a:hover + .indicator{
         transform: translateY(0px);
@@ -621,6 +757,117 @@
         width: 35px;
         height: 35px;
     }
+
+    .r{
+        color: white;
+        font-size: 1em;
+        display: block;
+        margin-left: 280px;
+        margin-top: -2px
+        }
+
+    
+.switch {
+  margin-left: 220px;
+  position: relative;
+  display: inline-block;
+  width: 48px;
+  height: 20px;
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* The slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 13px;
+  width: 13px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: rgb(239, 87, 66);
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px rgb(239, 87, 66);
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 14px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+.dark-body{
+    background-color: #1F2933;
+}
+
+.dark-header{
+    background-color: #323F4B;
+}
+
+.dark-color{
+    color: #F5F7FA;
+}
+
+.dark-color-inside{
+    background-color: #323F4B;
+    color: #f5f6f7;
+    border: solid 1px #55697c;
+
+}
+
+.dark-color-inside::placeholder{
+    color: #f5f6f7;
+}
+
+.dark-color-inside-btn{
+    background-color: #1F2933;
+    color: #f5f6f7;
+    border: none;
+
+}
+
+.dark-color-modal{
+    background-color: #323F4B;
+    
+}
+
+.dark-color-modal-title{
+    color: #f5f6f7;
+}
 }
 
 @media only screen and (min-width: 768px){
@@ -633,7 +880,7 @@
 
     @font-face {
         font-family: FunCity;
-        src: url(FunCityLevel3Frame.otf);
+        src: url(/fonts/FunCityLevel3Frame.otf);
     }
     
     header{
@@ -683,6 +930,7 @@
         display: flex;
     }
 
+
     header ul li a:hover + .indicator{
         transform: translateY(0px);
         opacity: 1;
@@ -716,6 +964,10 @@
     header ul li a:hover{
         color: white;
         border: none;
+    }
+
+    .github-corner{
+        display: none;
     }
     
 
@@ -762,6 +1014,17 @@
         font-size:1.5em;
     }
 
+    input[list="Disciplina"]{
+        font-size:1.5em;
+    }
+
+    
+        
+    
+        input[type="number"]{
+            font-size:1.5em;
+        }
+
     
     input::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
         color: rgb(239, 87, 66);
@@ -807,7 +1070,7 @@
     }
 
     button{
-        padding: 10px;
+        padding: 30px;
         margin-top: 35px;
         width: 40%;
         border: none;
@@ -818,6 +1081,7 @@
         color: white;
         border: solid 1px rgb(235, 235, 235) ;
         border-radius: 5px;
+        font-size: 2em;
     }
 
     #close-button{
@@ -825,6 +1089,9 @@
         color: rgb(239, 87, 66);
         border: 1px solid rgb(239, 87, 66);
         border-radius: 5px;
+        font-size: 2em;
+        padding: 20px;
+        width: 100%;
 
     }
 
@@ -833,6 +1100,9 @@
         color: white;
         border: solid 1px rgb(235, 235, 235) ;
         border-radius: 5px;
+        font-size: 2em;
+        padding: 20px;
+        width: 100%;
     }
 
     #button1:hover, #button2:hover{
@@ -849,6 +1119,7 @@
         color: rgb(239, 87, 66);
         border: 1px solid rgb(239, 87, 66);
         border-radius: 5px;
+        font-size: 2em;
     }
 
     .container-button{
@@ -868,6 +1139,7 @@
     #github-corner-footer{
         display: none;
     }
+    
 
     footer{
         text-align: center;
@@ -882,6 +1154,117 @@
         width: 35px;
         height: 35px;
     }
+
+    .r{
+        color: white;
+        font-size: 1em;
+        display: inline;
+        margin-left: -30px;
+        margin-top: -2px
+        }
+
+    
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 48px;
+  height: 20px;
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* The slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 13px;
+  width: 13px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: rgb(239, 87, 66);
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px rgb(239, 87, 66);
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 14px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+.dark-body{
+    background-color: #1F2933;
+}
+
+.dark-header{
+    background-color: #323F4B;
+}
+
+.dark-color{
+    color: #F5F7FA;
+}
+
+.dark-color-inside{
+    background-color: #323F4B;
+    color: #f5f6f7;
+    border: solid 1px #55697c;
+
+}
+
+.dark-color-inside::placeholder{
+    color: #f5f6f7;
+}
+
+.dark-color-inside-btn{
+    background-color: #1F2933;
+    color: #f5f6f7;
+    border: none;
+
+}
+
+.dark-color-modal{
+    background-color: #323F4B;
+    
+}
+
+.dark-color-modal-title{
+    color: #f5f6f7;
+}
+
 }
 
 @media only screen and (min-width: 992px){
@@ -894,7 +1277,7 @@
 
     @font-face {
         font-family: FunCity;
-        src: url(FunCityLevel3Frame.otf);
+        src: url(/fonts/FunCityLevel3Frame.otf);
     }
 
     #nome-curso{
@@ -1131,6 +1514,116 @@
         width: 35px;
         height: 35px;
     }
+
+    .r{
+        color: white;
+        font-size: 1em;
+        display: inline;
+        margin-left: -50px;
+        margin-top: -2px
+        }
+
+    
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 50px;
+  height: 24px;
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* The slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 16px;
+  width: 16px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: rgb(239, 87, 66);
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px rgb(239, 87, 66);
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 14px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+.dark-body{
+    background-color: #1F2933;
+}
+
+.dark-header{
+    background-color: #323F4B;
+}
+
+.dark-color{
+    color: #F5F7FA;
+}
+
+.dark-color-inside{
+    background-color: #323F4B;
+    color: #f5f6f7;
+    border: solid 1px #55697c;
+
+}
+
+.dark-color-inside::placeholder{
+    color: #f5f6f7;
+}
+
+.dark-color-inside-btn{
+    background-color: #1F2933;
+    color: #f5f6f7;
+    border: none;
+
+}
+
+.dark-color-modal{
+    background-color: #323F4B;
+    
+}
+
+.dark-color-modal-title{
+    color: #f5f6f7;
+}
 }
 
 @media only screen and (min-width: 1200px){
@@ -1140,10 +1633,14 @@
         margin: 0;
     }
 
+    .github-corner{
+        display: block;
+    }
+
 
     @font-face {
         font-family: FunCity;
-        src: url(FunCityLevel3Frame.otf);
+        src: url(/fonts/FunCityLevel3Frame.otf);
     }
 
     #nome-curso{
@@ -1392,7 +1889,127 @@
         height: 35px;
     }
  
+    .form-check-label{
+        color: white;
+        font-size: 1em;
+    }
+
+    #github-corner-footer{
+        display: none;
+    }
+
+    .r{
+        color: white;
+        font-size: 1em;
+        display: inline;
+        margin-left: -80px;
+        margin-top: -2px
+        }
+
     
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 50px;
+  height: 24px;
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* The slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 16px;
+  width: 16px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: rgb(239, 87, 66);
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px rgb(239, 87, 66);
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 14px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+.dark-body{
+    background-color: #1F2933;
+}
+
+.dark-header{
+    background-color: #323F4B;
+}
+
+.dark-color{
+    color: #F5F7FA;
+}
+
+.dark-color-inside{
+    background-color: #323F4B;
+    color: #f5f6f7;
+    border: solid 1px #55697c;
+
+}
+
+.dark-color-inside::placeholder{
+    color: #f5f6f7;
+}
+
+.dark-color-inside-btn{
+    background-color: #1F2933;
+    color: #f5f6f7;
+    border: none;
+
+}
+
+.dark-color-modal{
+    background-color: #323F4B;
+    
+}
+
+.dark-color-modal-title{
+    color: #f5f6f7;
+}
+
+
+
 }
 
 
