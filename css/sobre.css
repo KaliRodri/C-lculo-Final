@@ -16,7 +16,7 @@
 
     @font-face {
         font-family: FunCity;
-        src: url(FunCityLevel3Frame.otf);
+        src: url(/fonts/FunCityLevel3Frame.otf);
     }
 
     header button img{
@@ -167,17 +167,17 @@
     
     @font-face {
         font-family: Bakery;
-        src: url(bakery.otf);
+        src: url(/fonts/bakery.otf);
     }
 
     @font-face {
         font-family: Regina;
-        src: url(ReginaScript-mL1WG.otf);
+        src: url(/fonts/ReginaScript-mL1WG.otf);
     }
 
     @font-face {
         font-family: Pacifico;
-        src: url(FiraSans-Regular.ttf)
+        src: url(/fonts/FiraSans-Regular.ttf)
     }
 
     @keyframes texto{
@@ -241,7 +241,7 @@
         animation-fill-mode: forwards;
         animation-direction: alternate;
         animation-delay: 1.9s;
-        transform: translateY(650px);
+        opacity: 0;
     }
 
     .linkedin img{
@@ -258,7 +258,7 @@
         animation-fill-mode: forwards;
         animation-direction: alternate;
         animation-delay: 2.5s;
-        transform: translateY(650px);
+        opacity: 0;
     }
 
     .instagram img{
@@ -275,7 +275,7 @@
         animation-fill-mode: forwards;
         animation-direction: alternate;
         animation-delay: 3s;
-        transform: translateY(650px);
+        opacity: 0;
         
     }
 
@@ -292,28 +292,28 @@
 
     @keyframes linkedin {
         from{
-            transform: translateY(650px);
+            opacity: 0;
         }
         to{
-            transform: translateY(0);
+            opacity: 1;
         }
     }
 
     @keyframes instagram {
         from{
-            transform: translateY(650px);
+            opacity: 0;
         }
         to{
-            transform: translateY(0);
+            opacity: 1;
         }
     }
 
     @keyframes facebook {
         from{
-            transform: translateY(650px);
+           opacity: 0;
         }
         to{
-            transform: translateY(0);
+            opacity: 1;
         }
     }
     
@@ -324,9 +324,7 @@
         color: white;
         padding-top: 15px;
         height: auto;
-        position: fixed;
-        width: 100%;
-        bottom: 0;
+       width: 600px;
        
     }
     
@@ -336,9 +334,9 @@
     }
 
     .sun{
-        width: 16px;
-        height: 16px;
-        margin-top: -5px;
+        width: 20px;
+        height: 20px;
+        margin-top: 2px;
         position: relative;
         z-index: 1;
         margin-left: 2px;
@@ -346,12 +344,12 @@
     }
 
     .moon{
-        width: 16px;
-        height: 16px;
-        margin-top: -4px;
+        width: 20px;
+        height: 20px;
+        margin-top: 2px;
         position: relative;
         z-index: 1;
-        margin-left: 25px ;
+        margin-left: 29px ;
         
     }
 
@@ -368,8 +366,8 @@
   margin-left: 220px;
   position: relative;
   display: inline-block;
-  width: 52px;
-  height: 25px;
+  width: 60px;
+  height: 30px;
 }
 
 /* Hide default HTML checkbox */
@@ -395,8 +393,8 @@
 .slider:before {
   position: absolute;
   content: "";
-  height: 18px;
-  width: 18px;
+  height: 22px;
+  width: 22px;
   left: 4px;
   bottom: 4px;
   background-color: white;
@@ -413,9 +411,9 @@ input:focus + .slider {
 }
 
 input:checked + .slider:before {
-  -webkit-transform: translateX(26px);
-  -ms-transform: translateX(26px);
-  transform: translateX(26px);
+    -webkit-transform: translateX(29px);
+    -ms-transform: translateX(29px);
+    transform: translateX(29px);
 }
 
 /* Rounded sliders */
@@ -466,8 +464,8 @@ input:checked + .slider:before {
     color: #f5f6f7;
 }
 
-.github-corner-footer-change{
-    fill: #323F4B;
+.github-corner{
+    display: none;
 }
 }
 
@@ -484,7 +482,7 @@ input:checked + .slider:before {
 
     @font-face {
         font-family: FunCity;
-        src: url(FunCityLevel3Frame.otf);
+        src: url(/fonts/FunCityLevel3Frame.otf);
     }
 
     header button img{
@@ -649,17 +647,17 @@ input:checked + .slider:before {
     
     @font-face {
         font-family: Bakery;
-        src: url(bakery.otf);
+        src: url(/fonts/bakery.otf);
     }
 
     @font-face {
         font-family: Regina;
-        src: url(ReginaScript-d9xAX.ttf);
+        src: url(/fonts/ReginaScript-d9xAX.ttf);
     }
 
     @font-face {
         font-family: Pacifico;
-        src: url(FiraSans-Regular.ttf)
+        src: url(/fonts/FiraSans-Regular.ttf)
     }
 
     @keyframes texto{
@@ -879,10 +877,8 @@ input:checked + .slider:before {
         color: white;
         padding-top: 15px;
         margin-top: 20px;
-        height: auto;
-        position: fixed;
-        width: 100%;
-        bottom: 0;
+        
+        
        
     }
     
@@ -1018,13 +1014,11 @@ input:checked + .slider:before {
     
 }
 
-.dark-color-modal-title{
-    color: #f5f6f7;
+.github-corner{
+    display: none;
 }
 
-.github-corner-footer-change{
-    fill: #323F4B;
-}
+
 }
 
 @media only screen and (min-width: 768px){
@@ -1041,7 +1035,7 @@ input:checked + .slider:before {
 
     @font-face {
         font-family: FunCity;
-        src: url(FunCityLevel3Frame.otf);
+        src: url(/fonts/FunCityLevel3Frame.otf);
     }
     
     header{
@@ -1169,17 +1163,17 @@ input:checked + .slider:before {
     
     @font-face {
         font-family: Bakery;
-        src: url(bakery.otf);
+        src: url(/fonts/bakery.otf);
     }
 
     @font-face {
         font-family: Regina;
-        src: url(ReginaScript-mL1WG.otf);
+        src: url(/fonts/ReginaScript-mL1WG.otf);
     }
 
     @font-face {
         font-family: Pacifico;
-        src: url(FiraSans-Regular.ttf)
+        src: url(/fonts/FiraSans-Regular.ttf)
     }
 
     @keyframes texto{
@@ -1384,10 +1378,8 @@ input:checked + .slider:before {
         color: white;
         padding-top: 15px;
         margin-top: 20px;
-        height: auto;
-        position: fixed;
-        width: 100%;
-        bottom: 0;
+        
+       
     }
     
     footer img{
@@ -1499,6 +1491,11 @@ input:checked + .slider:before {
 .dark-color{
     color: #F5F7FA;
 }
+
+.github-corner{
+    display: none;
+}
+
 }
 
 @media only screen and (min-width: 992px){
@@ -1515,7 +1512,7 @@ input:checked + .slider:before {
 
     @font-face {
         font-family: FunCity;
-        src: url(FunCityLevel3Frame.otf);
+        src: url(/fonts/FunCityLevel3Frame.otf);
     }
     
     header{
@@ -1588,6 +1585,7 @@ input:checked + .slider:before {
         border: none;
     }
     
+   
 
     .modal-title{
         font-size: 1.2em;
@@ -1631,17 +1629,17 @@ input:checked + .slider:before {
     
     @font-face {
         font-family: Bakery;
-        src: url(bakery.otf);
+        src: url(/fonts/bakery.otf);
     }
 
     @font-face {
         font-family: Regina;
-        src: url(ReginaScript-mL1WG.otf);
+        src: url(/fonts/ReginaScript-mL1WG.otf);
     }
 
     @font-face {
         font-family: Pacifico;
-        src: url(FiraSans-Regular.ttf)
+        src: url(/fonts/FiraSans-Regular.ttf)
     }
 
     @keyframes texto{
@@ -1831,10 +1829,7 @@ input:checked + .slider:before {
         margin-bottom: -16px;
         color: white;
         padding-top: 15px;
-        height: auto;
-        position: fixed;
-        width: 100%;
-        bottom: 0;
+        
     }
     
     footer img{
@@ -1947,6 +1942,11 @@ input:checked + .slider:before {
 .dark-color{
     color: #F5F7FA;
 }
+
+.github-corner{
+    display: none;
+}
+
 }
 
 @media only screen and (min-width: 1200px){
@@ -1956,13 +1956,10 @@ input:checked + .slider:before {
         margin: 0;
     }
    
-    body{
-        overflow-y: hidden;
-    }
-
+ 
     @font-face {
         font-family: FunCity;
-        src: url(FunCityLevel3Frame.otf);
+        src: url(/fonts/FunCityLevel3Frame.otf);
     }
     
     header{
@@ -2074,17 +2071,17 @@ input:checked + .slider:before {
     
     @font-face {
         font-family: Bakery;
-        src: url(bakery.otf);
+        src: url(/fonts/bakery.otf);
     }
 
     @font-face {
         font-family: Regina;
-        src: url(ReginaScript-mL1WG.otf);
+        src: url(/fonts/ReginaScript-mL1WG.otf);
     }
 
     @font-face {
         font-family: Pacifico;
-        src: url(FiraSans-Regular.ttf)
+        src: url(/fonts/FiraSans-Regular.ttf)
     }
 
     @keyframes texto{
@@ -2101,7 +2098,7 @@ input:checked + .slider:before {
         text-align: center;
         width: 80%;
         margin: auto;
-        font-size: 2.5em;
+        font-size: 2em;
         font-family: Pacifico;
         transform: translateX(720px);
         animation-name: texto;
@@ -2167,33 +2164,33 @@ input:checked + .slider:before {
 
     @keyframes linkedin {
         from{
-            transform: translateY(650px);
+          
             opacity: 0;
         }
         to{
-            transform: translateY(0);
+            
             opacity: 1;
         }
     }
 
     @keyframes instagram {
         from{
-            transform: translateY(400px);
+          
             opacity: 0;
         }
         to{
-            transform: translateY(0);
+          
             opacity: 1;
         }
     }
 
     @keyframes facebook {
         from{
-            transform: translateY(200px);
+            
             opacity: 0;
         }
         to{
-            transform: translateY(0);
+           
             opacity: 1;
         }
     }
@@ -2203,7 +2200,7 @@ input:checked + .slider:before {
         background-color: blue;
         padding: 5px;
         border-radius: 10px;
-        transform: translateY(650px);
+        
         animation-name: linkedin;
         animation-duration: 1s;
         animation-fill-mode: forwards;
@@ -2214,14 +2211,14 @@ input:checked + .slider:before {
 
     .linkedin img{
         width: 70px;
-        height: 70px;
+        height: 60px;
     }
 
     .instagram{
         background: radial-gradient(circle farthest-corner at 35% 90%, #fec564, transparent 50%), radial-gradient(circle farthest-corner at 0 140%, #fec564, transparent 50%), radial-gradient(ellipse farthest-corner at 0 -25%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 20% -50%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 0, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 60% -20%, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 100%, #d9317a, transparent), linear-gradient(#6559ca, #bc318f 30%, #e33f5f 50%, #f77638 70%, #fec66d 100%);
         padding: 5px;
         border-radius: 10px;
-        transform: translateY(400px);
+      
         animation-name: instagram;
         animation-duration: 1s;
         animation-fill-mode: forwards;
@@ -2239,7 +2236,7 @@ input:checked + .slider:before {
         background-color: rgb(0, 119, 255);
         padding: 5px;
         border-radius: 10px;
-        transform: translateY(400px);
+     
         animation-name: facebook;
         animation-duration: 1s;
         animation-fill-mode: forwards;
@@ -2265,7 +2262,8 @@ input:checked + .slider:before {
         padding-bottom: 1px;
         color: white;
         padding-top: 15px;
-        margin-top: 10%;
+        margin-top: 2%;
+        position: static;
     }
     
     footer img{
