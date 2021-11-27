@@ -268,6 +268,12 @@ function toggleMode(){
     var h = document.getElementById('close-button');
     h.classList.toggle('border-white');
 
+    var h = document.getElementById('moon-change');
+    h.classList.toggle('moon-clicked');
+
+    var h = document.getElementById('sun-change');
+    h.classList.toggle('sun-clicked');
+
     
 
     
