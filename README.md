@@ -5,4 +5,4 @@ Can be accessed here: https://kalirodri.github.io/Calculo-Final/
 Pt br:
 # Cálculo-Final
 Aplicativo web criado para calcular a média e quanto você precisa fazer no exame final, criado para uso de alunos e professores da Uneb - Universidade do Estado da Bahia
-Pode ser accessado aqui: https://kalirodri.github.io/Calculo-Final/
+Pode ser acessado aqui: https://kalirodri.github.io/Calculo-Final/
