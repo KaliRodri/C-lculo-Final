@@ -34,8 +34,8 @@ function Cal(){
             } 
 
             if (mediaP >= 7 && !(n1 > 10) && !(n2 > 10) && !(n3 > 10)){
-                document.getElementById("media-here").innerHTML = "Parabéns!, você está aprovado em " + disciplina + "!";
-                document.getElementById("nota-final").innerHTML = "";
+                document.getElementById("media-here").innerHTML = "Sua média em " + disciplina + " é de " + mediaP + ".";
+                document.getElementById("nota-final").innerHTML = "Parabéns!, você está aprovado(a)!";
             } else if (mediaP < 3){
                 document.getElementById("media-here").innerHTML = "Infelizmente sua média em " + disciplina + " é de apenas " + mediaP + " pontos, reprovou automaticamente.";
                 document.getElementById("nota-final").innerHTML = "";
