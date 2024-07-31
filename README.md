@@ -1,5 +1,5 @@
 # Calculo-Final
-Web app created to calculate the average and how much you need to take in the final exam, created for the use of students and professors at Uneb - Bahia State University 
+Aplicativo web criado para calcular a média e quanto você precisa tirar no exame final, desenvolvido para uso de alunos e professores da Uneb - Universidade do Estado da Bahia.
 ## Funcionalidades
 ### 1. Cálculo da Média Semestral:
 #### Entrada de Notas: Permite ao usuário inserir as notas obtidas nas avaliações ao longo do semestre.
