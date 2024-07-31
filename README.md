@@ -15,6 +15,11 @@ Aplicativo web criado para calcular a média e quanto você precisa tirar no exa
 ### 4. Requisitos do Sistema
 #### Acesso Web: Funciona em qualquer navegador web moderno sem a necessidade de instalação.
 #### Conectividade: Requer conexão com a internet para acessar a página web.
+### Tecnologias Utilizadas: 
+#### - HTML
+#### - CSS
+#### - JavaScript
+#### - Bootstrap
 ### Como Utilizar
 #### - Acesse o aplicativo através do link.
 #### - Insira suas notas obtidas ao longo do semestre nos campos designados.
